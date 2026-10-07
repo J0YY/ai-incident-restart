@@ -75,6 +75,14 @@ def main():
         (work/'figures').mkdir(exist_ok=True)
         for n in ['experimental_design.pdf','evidence_example.pdf']:shutil.copy2(work/'tmp/pdfs/who_asks_the_model/reader_redraft/figures'/n,work/'figures'/n)
         shutil.copy2(work/'tmp/pdfs/who_asks_the_model/thesis_redraft/figures/gemma_form_misses.pdf',work/'figures/gemma_form_misses.pdf')
+        accounting=work/'publication_revision_v17'
+        run('publication_accounting',[str(ROOT/'scripts/publication_revision_v17/control_accounting.py'),'--archive',str(ROOT/'archives/governance_evidence.zip'),'--output',str(accounting)])
+        for reference in sorted((ROOT/'verification/publication_revision_v17').glob('*.json')):
+            if reference.name=='control_accounting_provenance.json':continue
+            same(json.loads(reference.read_text()),json.loads((accounting/reference.name).read_text()))
+        for reference in sorted((ROOT/'verification/publication_revision_v17').glob('*.csv')):
+            assert reference.read_bytes()==(accounting/reference.name).read_bytes(),reference.name
+        report['comparisons'][-1]['saved_result_matches']=True
         if a.questionnaire:
             for model in ['qwen','gemma']:
                 run('questionnaire_'+model,['scripts/analyze_essay_mechanism_questionnaire.py','--model',model],f'results/essay_mechanism/{model}_questionnaire_analysis.json')

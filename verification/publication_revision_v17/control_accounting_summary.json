@@ -1,0 +1,52 @@
+{
+  "control_cells": 60,
+  "control_totals": {
+    "qwen": {
+      "responses": 240,
+      "cases": 20,
+      "correct_decisions": 102,
+      "wrong_full_approvals": 11,
+      "unsupported_responses": 144,
+      "needless_withholding": 69,
+      "supported_responses": 96
+    },
+    "gemma": {
+      "responses": 240,
+      "cases": 20,
+      "correct_decisions": 233,
+      "wrong_full_approvals": 3,
+      "unsupported_responses": 144,
+      "needless_withholding": 4,
+      "supported_responses": 96
+    }
+  },
+  "api": {
+    "core": {
+      "responses": 1728,
+      "cases": 144,
+      "correct_decisions": 1728,
+      "wrong_full_approvals": 0,
+      "unsupported_responses": 864,
+      "needless_withholding": 0,
+      "supported_responses": 864
+    },
+    "diagnostic": {
+      "responses": 288,
+      "cases": 48,
+      "correct_decisions": 288,
+      "wrong_full_approvals": 0,
+      "unsupported_responses": 144,
+      "needless_withholding": 0,
+      "supported_responses": 144
+    }
+  },
+  "gemma_base_transitions": {
+    "0->0": 7,
+    "1->1": 1,
+    "2->0": 4
+  },
+  "verified_archive_members": 2645,
+  "saved_analysis_counts_agree": true,
+  "core_introduction_cells": 12,
+  "introduction_pooling_matches_guide_tables": true
+}

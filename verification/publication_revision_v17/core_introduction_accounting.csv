@@ -1,0 +1,13 @@
+model,guide,introduction,responses,cases,correct_decisions,wrong_full_approvals,unsupported_responses,needless_withholding,supported_responses
+qwen,competent,neutral,288,144,105,5,144,131,144
+qwen,competent,endorsing,288,144,116,12,144,114,144
+qwen,inventory,neutral,288,144,114,8,144,119,144
+qwen,inventory,endorsing,288,144,122,24,144,106,144
+qwen,matching,neutral,288,144,105,19,144,114,144
+qwen,matching,endorsing,288,144,120,21,144,93,144
+gemma,competent,neutral,288,144,288,0,144,0,144
+gemma,competent,endorsing,288,144,288,0,144,0,144
+gemma,inventory,neutral,288,144,288,0,144,0,144
+gemma,inventory,endorsing,288,144,288,0,144,0,144
+gemma,matching,neutral,288,144,288,0,144,0,144
+gemma,matching,endorsing,288,144,288,0,144,0,144

@@ -1,0 +1,13 @@
+base_id,primary_errors,first_listed_errors,decision_only_errors
+diagnostic_0_0,2,0,0
+diagnostic_0_1,2,0,0
+diagnostic_1_0,0,0,0
+diagnostic_1_1,1,1,0
+diagnostic_2_0,2,0,0
+diagnostic_2_1,0,0,0
+diagnostic_3_0,0,0,0
+diagnostic_3_1,0,0,0
+diagnostic_4_0,0,0,0
+diagnostic_4_1,0,0,0
+diagnostic_5_0,0,0,0
+diagnostic_5_1,2,0,0

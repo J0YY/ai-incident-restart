@@ -1,0 +1,74 @@
+[
+  {
+    "base_id": "diagnostic_0_0",
+    "primary_errors": 2,
+    "first_listed_errors": 0,
+    "decision_only_errors": 0
+  },
+  {
+    "base_id": "diagnostic_0_1",
+    "primary_errors": 2,
+    "first_listed_errors": 0,
+    "decision_only_errors": 0
+  },
+  {
+    "base_id": "diagnostic_1_0",
+    "primary_errors": 0,
+    "first_listed_errors": 0,
+    "decision_only_errors": 0
+  },
+  {
+    "base_id": "diagnostic_1_1",
+    "primary_errors": 1,
+    "first_listed_errors": 1,
+    "decision_only_errors": 0
+  },
+  {
+    "base_id": "diagnostic_2_0",
+    "primary_errors": 2,
+    "first_listed_errors": 0,
+    "decision_only_errors": 0
+  },
+  {
+    "base_id": "diagnostic_2_1",
+    "primary_errors": 0,
+    "first_listed_errors": 0,
+    "decision_only_errors": 0
+  },
+  {
+    "base_id": "diagnostic_3_0",
+    "primary_errors": 0,
+    "first_listed_errors": 0,
+    "decision_only_errors": 0
+  },
+  {
+    "base_id": "diagnostic_3_1",
+    "primary_errors": 0,
+    "first_listed_errors": 0,
+    "decision_only_errors": 0
+  },
+  {
+    "base_id": "diagnostic_4_0",
+    "primary_errors": 0,
+    "first_listed_errors": 0,
+    "decision_only_errors": 0
+  },
+  {
+    "base_id": "diagnostic_4_1",
+    "primary_errors": 0,
+    "first_listed_errors": 0,
+    "decision_only_errors": 0
+  },
+  {
+    "base_id": "diagnostic_5_0",
+    "primary_errors": 0,
+    "first_listed_errors": 0,
+    "decision_only_errors": 0
+  },
+  {
+    "base_id": "diagnostic_5_1",
+    "primary_errors": 2,
+    "first_listed_errors": 0,
+    "decision_only_errors": 0
+  }
+]

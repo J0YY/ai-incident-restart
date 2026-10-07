@@ -1,0 +1,85 @@
+{
+  "counts": {
+    "core": {
+      "responses": 1728,
+      "cases": 144,
+      "correct_decisions": 1728,
+      "wrong_full_approvals": 0,
+      "unsupported_responses": 864,
+      "needless_withholding": 0,
+      "supported_responses": 864
+    },
+    "diagnostic": {
+      "responses": 288,
+      "cases": 48,
+      "correct_decisions": 288,
+      "wrong_full_approvals": 0,
+      "unsupported_responses": 144,
+      "needless_withholding": 0,
+      "supported_responses": 144
+    }
+  },
+  "same_assignment_objects_verified": true,
+  "excluded_original_panels": [
+    "control",
+    "resolution"
+  ],
+  "request_settings": {
+    "model": "gpt-6.1-sol",
+    "reasoning": {
+      "effort": "medium"
+    },
+    "max_output_tokens": 4096,
+    "store": false,
+    "service_tier": "default"
+  },
+  "generation_note": "No temperature, top_p, seed, tool, response-format enforcement or conversation history. Exact original system/user strings. Each assignment uses a fresh stateless request. Medium reasoning and a larger total output budget differ from the open-weight runs, which disabled thinking. This tests the provider/model procedure, not an isolated model-size effect. No dated snapshot exposed in current official model documentation; retain requested and returned identifiers and UTC times.",
+  "started_utc": "2026-10-07T04:07:07.372693+00:00",
+  "completion": {
+    "complete": true,
+    "n": 2016,
+    "ended_utc": "2026-10-07T04:18:25.243514+00:00",
+    "done": 2016,
+    "total": 2016,
+    "statuses": {
+      "completed": 2016
+    },
+    "attempts": 2016,
+    "usage": {
+      "input_tokens": 3764136,
+      "output_tokens": 357172,
+      "cached_tokens": 1879044,
+      "cache_write_tokens": 1879044
+    },
+    "conservative_cost_accounted_usd": 12.98206000000002,
+    "seconds": 677.1136219501495
+  },
+  "open_weight_sampling": {
+    "qwen": {
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "top_k": 0,
+      "max_new_tokens": 320,
+      "batch_size": 8,
+      "assignment_shuffle_seed": 607103,
+      "bootstrap_seed": 601061,
+      "generation_seed": "SHA256(model label, split, batch offset) first eight hex digits modulo 2^31",
+      "precision": "BF16",
+      "attention": "SDPA",
+      "thinking": false
+    },
+    "gemma": {
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "top_k": 0,
+      "max_new_tokens": 320,
+      "batch_size": 8,
+      "assignment_shuffle_seed": 607103,
+      "bootstrap_seed": 601061,
+      "generation_seed": "SHA256(model label, split, batch offset) first eight hex digits modulo 2^31",
+      "precision": "BF16",
+      "attention": "SDPA",
+      "thinking": false
+    }
+  }
+}

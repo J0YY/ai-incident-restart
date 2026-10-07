@@ -54,6 +54,10 @@
       "saved_result_matches": null
     },
     {
+      "step": "publication_accounting",
+      "saved_result_matches": true
+    },
+    {
       "step": "questionnaire_qwen",
       "saved_result_matches": true
     },
@@ -67,6 +71,5 @@
     }
   ],
   "no_inference": true,
-  "numeric_tolerance": 1e-10,
-  "archive_update": "Removed companion manuscripts only; all analysis inputs, scripts, and numerical outputs remain byte-identical to the fully reproduced package. Reverified all current member hashes."
+  "numeric_tolerance": 1e-10
 }

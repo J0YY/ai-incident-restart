@@ -1,0 +1,68 @@
+[
+  {
+    "model": "qwen",
+    "guide": "competent",
+    "responses": 576,
+    "cases": 144,
+    "correct_decisions": 221,
+    "wrong_full_approvals": 17,
+    "unsupported_responses": 288,
+    "needless_withholding": 245,
+    "supported_responses": 288
+  },
+  {
+    "model": "qwen",
+    "guide": "inventory",
+    "responses": 576,
+    "cases": 144,
+    "correct_decisions": 236,
+    "wrong_full_approvals": 32,
+    "unsupported_responses": 288,
+    "needless_withholding": 225,
+    "supported_responses": 288
+  },
+  {
+    "model": "qwen",
+    "guide": "matching",
+    "responses": 576,
+    "cases": 144,
+    "correct_decisions": 225,
+    "wrong_full_approvals": 40,
+    "unsupported_responses": 288,
+    "needless_withholding": 207,
+    "supported_responses": 288
+  },
+  {
+    "model": "gemma",
+    "guide": "competent",
+    "responses": 576,
+    "cases": 144,
+    "correct_decisions": 576,
+    "wrong_full_approvals": 0,
+    "unsupported_responses": 288,
+    "needless_withholding": 0,
+    "supported_responses": 288
+  },
+  {
+    "model": "gemma",
+    "guide": "inventory",
+    "responses": 576,
+    "cases": 144,
+    "correct_decisions": 576,
+    "wrong_full_approvals": 0,
+    "unsupported_responses": 288,
+    "needless_withholding": 0,
+    "supported_responses": 288
+  },
+  {
+    "model": "gemma",
+    "guide": "matching",
+    "responses": 576,
+    "cases": 144,
+    "correct_decisions": 576,
+    "wrong_full_approvals": 0,
+    "unsupported_responses": 288,
+    "needless_withholding": 0,
+    "supported_responses": 288
+  }
+]
