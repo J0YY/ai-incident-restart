@@ -1,0 +1,72 @@
+{
+  "verified_archive_members": 7018,
+  "comparisons": [
+    {
+      "step": "review_qwen",
+      "saved_result_matches": true
+    },
+    {
+      "step": "review_audit_qwen",
+      "saved_result_matches": null
+    },
+    {
+      "step": "review_gemma",
+      "saved_result_matches": true
+    },
+    {
+      "step": "review_audit_gemma",
+      "saved_result_matches": null
+    },
+    {
+      "step": "diagnostic_qwen",
+      "saved_result_matches": true
+    },
+    {
+      "step": "diagnostic_audit_qwen",
+      "saved_result_matches": null
+    },
+    {
+      "step": "repair_qwen",
+      "saved_result_matches": true
+    },
+    {
+      "step": "diagnostic_gemma",
+      "saved_result_matches": true
+    },
+    {
+      "step": "diagnostic_audit_gemma",
+      "saved_result_matches": null
+    },
+    {
+      "step": "repair_gemma",
+      "saved_result_matches": true
+    },
+    {
+      "step": "signal_detection",
+      "saved_result_matches": true
+    },
+    {
+      "step": "design_figures",
+      "saved_result_matches": null
+    },
+    {
+      "step": "dot_chart",
+      "saved_result_matches": null
+    },
+    {
+      "step": "questionnaire_qwen",
+      "saved_result_matches": true
+    },
+    {
+      "step": "questionnaire_gemma",
+      "saved_result_matches": true
+    },
+    {
+      "step": "archived_api",
+      "saved_result_matches": true
+    }
+  ],
+  "no_inference": true,
+  "numeric_tolerance": 1e-10,
+  "archive_update": "Removed companion manuscripts only; all analysis inputs, scripts, and numerical outputs remain byte-identical to the fully reproduced package. Reverified all current member hashes."
+}

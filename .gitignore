@@ -1,0 +1,9 @@
+.venv/
+_reproduction*/
+__pycache__/
+*.pyc
+paper/*.aux
+paper/*.log
+paper/*.out
+.DS_Store
+paper/
