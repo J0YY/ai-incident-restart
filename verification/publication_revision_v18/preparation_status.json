@@ -1,0 +1,20 @@
+{
+  "status": "Prepared, unrun",
+  "job_submitted": false,
+  "new_inference_responses": 0,
+  "blocking_condition": "SSH login.robots.ox.ac.uk port 22 timeout, including fresh non-multiplexed attempt.",
+  "offline_validation": {
+    "parser_assignment_tests": 6,
+    "archived_responses_reparsed": 288,
+    "analysis_fixture_cells": 36,
+    "analysis_fixture_base_cells": 432,
+    "analysis_fixture_is_new_empirical_data": false
+  },
+  "outstanding": [
+    "GPU runtime/template validation",
+    "864-response inference",
+    "same-model comparison analysis",
+    "independent case validation"
+  ],
+  "active_release": "release_v3"
+}

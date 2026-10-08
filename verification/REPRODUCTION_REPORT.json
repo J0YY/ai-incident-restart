@@ -58,6 +58,22 @@
       "saved_result_matches": true
     },
     {
+      "step": "core_accuracy_baseline",
+      "saved_result_matches": null
+    },
+    {
+      "step": "focused_design_figures",
+      "saved_result_matches": null
+    },
+    {
+      "step": "focused_dot_chart",
+      "saved_result_matches": null
+    },
+    {
+      "step": "reasoning_parser_offline",
+      "saved_result_matches": null
+    },
+    {
       "step": "questionnaire_qwen",
       "saved_result_matches": true
     },
@@ -71,5 +87,8 @@
     }
   ],
   "no_inference": true,
-  "numeric_tolerance": 1e-10
+  "numeric_tolerance": 1e-10,
+  "post_run_checks": [
+    "Runner-only amendment stores each invocation environment separately. All six offline parser/assignment tests passed after this amendment. Frozen preparation v1-v3 manifests verified; no inference."
+  ]
 }

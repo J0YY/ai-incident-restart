@@ -1,0 +1,126 @@
+{
+  "source_archive_sha256": "591e7ad125feac7289cdab57b09318c28e4879e494dfb18b8ad157536526f2a9",
+  "source": "Independently parsed complete raw core responses, no new inference",
+  "cells": [
+    {
+      "model": "gemma",
+      "guide": "competent",
+      "n": 576,
+      "correct": 576,
+      "labels": {
+        "FULL": 288,
+        "LIMITED": 144,
+        "HOLD": 144
+      },
+      "choices": {
+        "FULL": 288,
+        "LIMITED": 144,
+        "HOLD": 144
+      },
+      "accuracy_percent": 100.0,
+      "constant_full_accuracy_percent": 50,
+      "constant_full_wrong_approvals": 288,
+      "constant_full_unsupported_n": 288
+    },
+    {
+      "model": "gemma",
+      "guide": "inventory",
+      "n": 576,
+      "correct": 576,
+      "labels": {
+        "HOLD": 144,
+        "FULL": 288,
+        "LIMITED": 144
+      },
+      "choices": {
+        "HOLD": 144,
+        "FULL": 288,
+        "LIMITED": 144
+      },
+      "accuracy_percent": 100.0,
+      "constant_full_accuracy_percent": 50,
+      "constant_full_wrong_approvals": 288,
+      "constant_full_unsupported_n": 288
+    },
+    {
+      "model": "gemma",
+      "guide": "matching",
+      "n": 576,
+      "correct": 576,
+      "labels": {
+        "HOLD": 144,
+        "FULL": 288,
+        "LIMITED": 144
+      },
+      "choices": {
+        "HOLD": 144,
+        "FULL": 288,
+        "LIMITED": 144
+      },
+      "accuracy_percent": 100.0,
+      "constant_full_accuracy_percent": 50,
+      "constant_full_wrong_approvals": 288,
+      "constant_full_unsupported_n": 288
+    },
+    {
+      "model": "qwen",
+      "guide": "competent",
+      "n": 576,
+      "correct": 221,
+      "labels": {
+        "FULL": 288,
+        "LIMITED": 144,
+        "HOLD": 144
+      },
+      "choices": {
+        "LIMITED": 200,
+        "HOLD": 316,
+        "FULL": 60
+      },
+      "accuracy_percent": 38.36805555555556,
+      "constant_full_accuracy_percent": 50,
+      "constant_full_wrong_approvals": 288,
+      "constant_full_unsupported_n": 288
+    },
+    {
+      "model": "qwen",
+      "guide": "inventory",
+      "n": 576,
+      "correct": 236,
+      "labels": {
+        "HOLD": 144,
+        "FULL": 288,
+        "LIMITED": 144
+      },
+      "choices": {
+        "HOLD": 243,
+        "FULL": 95,
+        "LIMITED": 238
+      },
+      "accuracy_percent": 40.97222222222222,
+      "constant_full_accuracy_percent": 50,
+      "constant_full_wrong_approvals": 288,
+      "constant_full_unsupported_n": 288
+    },
+    {
+      "model": "qwen",
+      "guide": "matching",
+      "n": 576,
+      "correct": 225,
+      "labels": {
+        "HOLD": 144,
+        "FULL": 288,
+        "LIMITED": 144
+      },
+      "choices": {
+        "HOLD": 296,
+        "FULL": 121,
+        "LIMITED": 159
+      },
+      "accuracy_percent": 39.0625,
+      "constant_full_accuracy_percent": 50,
+      "constant_full_wrong_approvals": 288,
+      "constant_full_unsupported_n": 288
+    }
+  ]
+}

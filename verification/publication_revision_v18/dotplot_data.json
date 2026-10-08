@@ -1,0 +1,32 @@
+{
+  "source": "results/incident_resolution_diagnostic/gemma_v1/analysis.json",
+  "sha256": "28d9b0729b39810cdf03210980ff62ac7f837c0d7a7ce7dc8510bb96f77450dd",
+  "selection": {
+    "model": "google/gemma-4-31B-it",
+    "position": "last",
+    "sufficient": true,
+    "forms": [
+      "primary",
+      "first_listed",
+      "decision_only"
+    ]
+  },
+  "counts": [
+    9,
+    1,
+    0
+  ],
+  "denominators": [
+    24,
+    24,
+    24
+  ],
+  "base_cases_per_cell": 12,
+  "samples_per_base": 2,
+  "wrong_full_approvals_in_corresponding_insufficient_cells": [
+    0,
+    0,
+    0
+  ],
+  "interpretation": "Descriptive observed counts, no new test or interval. Appendix reports all original paired contrasts and their small-base limitations."
+}

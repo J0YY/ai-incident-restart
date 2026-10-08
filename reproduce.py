@@ -83,6 +83,18 @@ def main():
         for reference in sorted((ROOT/'verification/publication_revision_v17').glob('*.csv')):
             assert reference.read_bytes()==(accounting/reference.name).read_bytes(),reference.name
         report['comparisons'][-1]['saved_result_matches']=True
+        v18_scripts=work/'scripts/publication_revision_v18'
+        v18_scripts.mkdir(parents=True,exist_ok=True)
+        for file in (ROOT/'scripts/publication_revision_v18').glob('*.py'):shutil.copy2(file,v18_scripts/file.name)
+        run('core_accuracy_baseline',[str(v18_scripts/'check_accuracy_baselines.py'),'--archive',str(ROOT/'archives/governance_evidence.zip'),'--output',str(logs/'accuracy_baselines.json')])
+        same(json.loads((ROOT/'verification/publication_revision_v18/accuracy_baselines.json').read_text()),json.loads((logs/'accuracy_baselines.json').read_text()))
+        run('focused_design_figures',[str(v18_scripts/'build_focused_figures.py')])
+        run('focused_dot_chart',[str(v18_scripts/'build_focused_dotplot.py')])
+        for name in ['diagram_record.json','dotplot_data.json']:
+            same(json.loads((ROOT/'verification/publication_revision_v18'/name).read_text()),json.loads((work/'tmp/pdfs/who_asks_the_model/focused_revision/figures'/name).read_text()))
+        for name in ['experimental_design.pdf','evidence_example.pdf','gemma_form_misses.pdf']:
+            shutil.copy2(work/'tmp/pdfs/who_asks_the_model/focused_revision/figures'/name,work/'figures'/name)
+        run('reasoning_parser_offline',[str(v18_scripts/'test_reasoning_check.py')])
         if a.questionnaire:
             for model in ['qwen','gemma']:
                 run('questionnaire_'+model,['scripts/analyze_essay_mechanism_questionnaire.py','--model',model],f'results/essay_mechanism/{model}_questionnaire_analysis.json')
