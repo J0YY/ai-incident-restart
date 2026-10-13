@@ -1,1 +1,1 @@
-Prepared, unrun Gemma comparison. Extract preparation.zip and read README.txt. Zero new model outputs. The current frozen release is release_v3.
+Completed same-case Gemma rerun: 864 responses. Verify all outputs, frozen assignments, preemption hashes and saved analysis without inference with python3 experiments/gemma_reasoning_check_v1/verify.py. The old preparation.zip remains a historical unrun snapshot; completed.zip contains the completed record.

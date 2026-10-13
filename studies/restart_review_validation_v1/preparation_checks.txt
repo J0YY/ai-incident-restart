@@ -1,0 +1,18 @@
+PREPARATION CHECKS — 7 October 2026
+These are software/material consistency checks, not human validation or study results.
+
+Passed:
+- Six fictional pilot packets each have one draft staff-only key entry.
+- Response, scoring and future case-manifest CSV files contain headers only.
+- Forms A and B share exactly the same common checklist, objection-log fields and final-response fields.
+- Both allow 180 words in the log, 180 in supplementary notes and 140 in final reasons, plus choices.
+- Form A has 228 whitespace-separated words; Form B has 253. Reading burden is not exactly identical. Focused prompts, their wording and attention demands form the intervention bundle; the study cannot isolate them. Qualified pilot review must assess practical burden before freeze.
+- Abstract main schedule has 96 slots, eight different case families per slot and 16 planned exposures of every case in each arm. Every slot has two or three cases per truth class. This is not enrollment, actual randomized participant allocation, or evidence collection.
+
+Not completed:
+- Qualified human validation of baseline, cases, scoring or authority assumptions.
+- Ethics/institutional determination, consent, participant recruitment, compensation, data management arrangements.
+- Comprehension/timing pilot, independently authored held-out main bank or simulations supporting sample choice.
+- Final analysis implementation/validation, prospective margins, final freeze or preregistration.
+
+No manuscript, historical data or older study design was modified by this package's preparation.

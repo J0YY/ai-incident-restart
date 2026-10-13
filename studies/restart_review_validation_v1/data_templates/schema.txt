@@ -1,0 +1,41 @@
+DATA SCHEMA — headers-only templates, no observations
+
+Use UTF-8 CSV with standard quoted fields. Empty means missing/not applicable; never code an unknown as zero. Store raw form text in the raw_form_text column or an authorized access-controlled file referenced by raw_record_ref. Keep contact details separate. Codes must be locked before main collection. Pilot and main data must remain separate.
+
+responses.csv — one row per participant × assigned case
+study_phase: PILOT or MAIN; never combine for main estimates.
+participant_id: pseudonym, no names or employer.
+eligibility_stratum: operational_decision_yes or operational_decision_no.
+arm: A or B; kept hidden from reason scorers.
+schedule_slot: abstract assigned slot, blank for pilot if manually assigned.
+case_id, case_version, family_id: frozen identifiers; family denotes latent incident, not just workflow.
+case_order: integer starting 1.
+assigned: 1 or 0; rows normally 1.
+opened, submitted, timeout: 1/0 or blank if unavailable.
+started_at, ended_at: ISO 8601 with timezone; use no time finer than needed under privacy plan.
+elapsed_seconds: nonnegative, includes reading/writing, excludes scheduled break; capped primary time at authorized limit.
+decision: FULL, LIMITED, HOLD, DEFER, REFER, NO_RESPONSE or UNSCORABLE.
+interim_scope: FULL, LIMITED, HOLD or blank; required for DEFER/REFER.
+reason_text, request_text, request_owner, confidence_0_100: exact participant entries; confidence blank if absent.
+raw_form_text, raw_record_ref: unedited form and/or recoverable authorized source.
+deviation_note: facilitator records procedural/technical deviation without guessing correctness.
+
+scoring.csv — one row per response × scorer; preserve independent and adjudicated rows
+participant_id, case_id: join identifiers.
+scorer_id: pseudonymous qualified scorer ID.
+scoring_stage: INDEPENDENT_1, INDEPENDENT_2 or ADJUDICATED.
+key_version: frozen key used.
+truth_class: sufficient, insufficient or unresolved.
+advice_status: correct or misleading.
+approval_denominator, withholding_denominator: 1 if eligible; mutually exclusive in this design.
+unsupported_full, needless_withholding: 1/0 when in eligible denominator; blank otherwise.
+scope_correct, original_objection_resolved_recognized, spurious_objection, justified_deferral, justified_referral, targeted_request, repeated_supplied_request, advice_corrected_or_preserved, inconsistent_fields: 1/0/blank. justified_* is blank when not applicable; report inappropriate deferral from decision and class separately.
+unscorable: 1/0. Explain missing/inconsistent status without silently dropping row.
+scorer_arm_guess: A, B or UNKNOWN; guess_confidence_0_100: optional numerical certainty.
+score_reason: cite rule/evidence; adjudicated rows explain disagreement resolution.
+
+case_manifest.csv — future bank metadata, not participant material
+case_id, case_version, family_id, workflow, truth_class, advice_status, human_validation_status, packet_path, key_version, packet_sha256.
+The supplied file has only headers because the main bank is not authored. The assignment script creates main_schedule_DRAFT.csv with abstract IDs, not a completed manifest.
+
+Review additional private files before collection: eligibility/consent register with limited access; allocation log; deviations log; case-validation disagreements; scorer qualifications; data-access and withdrawal records. Do not add real identifiers to the study package by default.

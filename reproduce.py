@@ -56,6 +56,7 @@ def main():
         report['comparisons'].append({'step':label,'saved_result_matches':True if result else None})
         print('PASS',label,flush=True)
     if not a.verify_only:
+        run('completed_gemma_reasoning',[str(ROOT/'experiments/gemma_reasoning_check_v1/verify.py')])
         for model,runname in [('qwen','qwen_main_v2'),('gemma','gemma_main_v3_merged')]:
             run_dir='results/incident_review_study/'+runname
             run('review_'+model,['scripts/analyze_incident_review_study.py',run_dir],run_dir+'/analysis.json')

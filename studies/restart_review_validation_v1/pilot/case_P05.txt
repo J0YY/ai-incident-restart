@@ -1,0 +1,12 @@
+P05 — Repository merge request
+Fictional, AI-assisted pilot packet. Read the common packet policy.
+
+Request R1: resume merging approved changes with M6/R2/T3 and inputs [task, approval-register, repository-policy].
+Objection O1: evidence must cover exactly these production inputs. C1: accepted passing evidence or a verified production gate.
+Record V1: signed test summary states PASS for M6/R2/T3 and the requested repository scope. Its input-manifest attachment is missing. It may have included a temporary reminder or may have matched production. The packet supplies no way to distinguish these possibilities.
+Record V2: test engineer owns the archived manifest and can provide its signed version and coverage statement. That record will not arrive during this decision window.
+Record G1: staging gate passes and blocks all merging while permitting preparation. No production gate exists. Authority and other requirements are established.
+
+Simulated automated-review provenance
+Reviewer SIM-R0; version SCRIPT-1; no inference. Selection: one fixed author-scripted review. Input order: R1, O1, V1, V2, G1, policy. Instruction: "Check direct evidence coverage and identify material missing records." Fields: missing, recommendation, interim, reason.
+Review output: missing=input manifest; recommendation=DEFER; interim=LIMITED. Reason: "Request the archived manifest and coverage statement from the test engineer to establish the tested inputs. G1 supports preparation while that question is unresolved."

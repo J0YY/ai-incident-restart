@@ -1,0 +1,28 @@
+FORM B — recovery checklist and objection log with focused review prompts
+DRAFT / same evidence, authority, time and response space as Form A
+
+Case ID: ______ Participant study ID: ______
+
+Common recovery checklist (check or explain)
+[ ] Requested scope and decision authority checked.
+[ ] Tested and intended conditions compared; safeguard coverage checked.
+[ ] Supporting and contrary evidence examined; material gaps identified.
+[ ] Original and current objections recorded; resolved issues retained.
+[ ] Proposed recovery scope checked against policy; owner and next review identified.
+
+Common objection log (up to 180 words; rows may be added within the limit)
+Objection ID | Earlier condition | Evidence IDs | Current status/reason | Owner/next step
+____________________________________________________________________________
+
+Supplementary review note (up to 180 words)
+Model-review provenance: identify the reviewer/record, instruction and answer fields relevant to the recommendation. What evidence route did it use or overlook?
+Objection disposition: for each current objection, name the evidence that would resolve it; cite the supplied evidence and mark resolved, unmet, or uncertain. If restriction continues after an earlier condition is met, give its current basis and authorized owner. Check the recommendation against that disposition.
+____________________________________________________________________________
+
+Common final answer (up to 140 words plus choices)
+Recommendation: FULL / LIMITED / HOLD / DEFER / REFER
+If DEFER or REFER, interim scope: FULL / LIMITED / HOLD
+Reason with decisive evidence IDs: __________________________________________
+Missing record/authority requested, or NONE: _________________________________
+What would that request resolve, and who should answer? ______________________
+Confidence that your answer follows the supplied policy, 0–100: ______

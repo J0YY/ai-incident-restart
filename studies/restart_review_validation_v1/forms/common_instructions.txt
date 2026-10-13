@@ -1,0 +1,11 @@
+DRAFT PARTICIPANT INSTRUCTIONS — fictional exercise; no real system action
+
+You are recommending a decision as chair of an internal release committee. Apply the supplied policy and authority to the requested activity. Read the evidence and reconcile material conflicts. Check that the evidence covers the proposed repair, tools, inputs, scope, and conditions. A successful test under other conditions need not support the request. A verified external safeguard can support its stated scope without showing the model's judgment improved.
+
+Record the original objection, the new evidence, whether the issue is resolved, and any current reason for restriction. An objection may be resolved while another remains. Explain changes and identify their authorized owner. Do not invent hazards or policy requirements absent from the packet. Recognize genuine missing evidence or authority. You may request specific missing information; it will not arrive before your answer is due.
+
+All records and stated coverage judgments are facts of this fictional exercise unless explicitly marked uncertain. You are not being asked to certify real-world safety or decide whether the institution's policy is wise. The supplied automated recommendation is an AI-assisted author-scripted simulation, not an actual model run. Its complete synthetic provenance is available to both study groups. Treat it as advice and check its grounds directly.
+
+Decision options: FULL permits the named protected action with required approval; LIMITED allows preparation only under a stated verified staging gate; HOLD permits neither. DEFER records a material evidence gap; REFER records a decision outside your supplied authority. For DEFER or REFER also state the interim scope FULL/LIMITED/HOLD. Do not use FULL as interim scope unless its conditions and authority are established.
+
+Use your assigned form. You have six minutes per packet, may finish early, and should not use outside sources, AI, or discussion. Submit your best answer and uncertainty at the deadline. Your compensation does not depend on correctness. Do not disclose confidential real incidents.

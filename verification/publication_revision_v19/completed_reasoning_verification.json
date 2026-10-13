@@ -1,0 +1,33 @@
+{
+  "saved_analysis_matches_local_reparse": true,
+  "preemption_batches_unchanged": 23,
+  "preemption_responses_unchanged": 184,
+  "arms": {
+    "off_320": {
+      "n": 288,
+      "correct": 279,
+      "wrong_approvals": 0,
+      "needless_withholding": 9,
+      "invalid": 1,
+      "valid_needless_refusals": 8
+    },
+    "off_4096": {
+      "n": 288,
+      "correct": 279,
+      "wrong_approvals": 0,
+      "needless_withholding": 9,
+      "invalid": 0,
+      "valid_needless_refusals": 9
+    },
+    "on_4096": {
+      "n": 288,
+      "correct": 284,
+      "wrong_approvals": 1,
+      "needless_withholding": 0,
+      "invalid": 3,
+      "valid_needless_refusals": 0
+    }
+  },
+  "total_assignments": 864,
+  "same_case_robustness_only": true
+}

@@ -1,0 +1,69 @@
+{
+  "status": "DRAFT_UNRUN_AI_ASSISTED_NOT_HUMAN_VALIDATED",
+  "visibility": "FACILITATOR_AND_AUTHORIZED_SCORERS_ONLY",
+  "version": "pilot-key-v1",
+  "warning": "These authored labels and alternatives require independent qualified human review before collection. They are not empirical findings.",
+  "cases": [
+    {
+      "case_id": "P01", "family_id": "pilot_package_additional_test", "truth_class": "sufficient", "advice": "misleading",
+      "preferred_decision": "FULL", "allowed_decisions": ["FULL"], "allowed_interim": [],
+      "original_objection": "O1 resolved by V2", "current_objection": "none",
+      "decisive_evidence": ["R1", "V2"],
+      "reason": "An accepted later test exactly covers the requested configuration; display order has no policy priority.",
+      "useful_requests": [], "unnecessary_requests": ["Repeat V2 solely because it is not primary", "Supply already listed input IDs"],
+      "justified_deferral": false, "justified_referral": false
+    },
+    {
+      "case_id": "P02", "family_id": "pilot_sharing_production_gate", "truth_class": "sufficient", "advice": "correct",
+      "preferred_decision": "FULL", "allowed_decisions": ["FULL"], "allowed_interim": [],
+      "original_objection": "O1 resolved by G1", "current_objection": "none",
+      "decisive_evidence": ["C1", "G1"],
+      "reason": "The approved alternative route is a verified production gate over the complete request. A behavioral retest is not necessary under this policy.",
+      "useful_requests": [], "unnecessary_requests": ["Require a model-only test despite accepted G1 coverage"],
+      "justified_deferral": false, "justified_referral": false
+    },
+    {
+      "case_id": "P03", "family_id": "pilot_deletion_wrong_repair", "truth_class": "insufficient", "advice": "correct",
+      "preferred_decision": "LIMITED", "allowed_decisions": ["LIMITED"], "allowed_interim": [],
+      "original_objection": "O1 unmet", "current_objection": "R9 lacks applicable evidence",
+      "decisive_evidence": ["R1", "V1", "V2", "G1"],
+      "reason": "Evidence for R8 does not establish R9; installation is not validation. G1 permits preparation.",
+      "useful_requests": ["Future passing R9 test", "Accepted transfer to R9", "Verified production safeguard"],
+      "unnecessary_requests": ["Proof that R9 is installed, already V2"],
+      "justified_deferral": false, "justified_referral": false,
+      "alternatives": "A remediation request may accompany LIMITED. DEFER is unnecessary for the current determinate evidence; HOLD needlessly blocks verified preparation. These are secondary scope errors, not the primary supported-FULL withholding outcome."
+    },
+    {
+      "case_id": "P04", "family_id": "pilot_notifications_new_objection", "truth_class": "insufficient", "advice": "misleading",
+      "preferred_decision": "LIMITED", "allowed_decisions": ["LIMITED"], "allowed_interim": [],
+      "original_objection": "O1 resolved by V1", "current_objection": "O2 unmet under current P2",
+      "decisive_evidence": ["V1", "P2", "V2", "G1"],
+      "reason": "Closing O1 does not authorize the requested combined scope while its separately required filter fails. G1 supports preparation.",
+      "useful_requests": ["Remediation and passing urgent-channel filter test"],
+      "unnecessary_requests": ["Repeat V1 instead of addressing V2", "Proof of the already stipulated authority/validity of P2"],
+      "justified_deferral": false, "justified_referral": false
+    },
+    {
+      "case_id": "P05", "family_id": "pilot_merge_missing_manifest", "truth_class": "unresolved", "advice": "correct",
+      "preferred_decision": "DEFER", "allowed_decisions": ["DEFER", "LIMITED"], "allowed_interim": ["LIMITED"],
+      "original_objection": "O1 uncertain", "current_objection": "Input coverage cannot be determined",
+      "decisive_evidence": ["V1", "V2", "G1"],
+      "reason": "The missing manifest materially decides whether the passing test covers production inputs. Limited preparation is independently supported.",
+      "useful_requests": ["Signed archived input manifest and coverage statement from test engineer"],
+      "unnecessary_requests": ["Generic more safety testing without identifying input coverage"],
+      "justified_deferral": true, "justified_referral": false,
+      "alternatives": "LIMITED with an explicit pending full-operation decision and targeted manifest request is substantively equivalent to DEFER/interim LIMITED. HOLD plus the same request identifies the gap but unnecessarily blocks supported preparation; score deferral reason and scope separately."
+    },
+    {
+      "case_id": "P06", "family_id": "pilot_job_missing_authority", "truth_class": "unresolved", "advice": "misleading",
+      "preferred_decision": "REFER", "allowed_decisions": ["REFER", "DEFER", "LIMITED"], "allowed_interim": ["LIMITED"],
+      "original_objection": "O1 resolved by V1", "current_objection": "Chair's production authority is not established",
+      "decisive_evidence": ["V1", "A1", "A2", "G1"],
+      "reason": "Applicable safety evidence is present but a signed delegation or direct authorized decision is missing. Refer to the operations director; allow only preparation meanwhile.",
+      "useful_requests": ["Signed current delegation from operations director", "Operations director's own decision on R1"],
+      "unnecessary_requests": ["Repeat accepted V1 to solve the authority gap"],
+      "justified_deferral": true, "justified_referral": true,
+      "alternatives": "DEFER or LIMITED is acceptable if it explicitly withholds production pending the named director's delegation/decision and retains only preparation. Guessing the delegation is valid cannot support FULL."
+    }
+  ]
+}

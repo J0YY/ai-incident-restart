@@ -1,0 +1,25 @@
+{
+  "status": "prepared_development_pilot_unrun",
+  "main_inference_enabled": false,
+  "new_model_outputs": 0,
+  "new_human_observations": 0,
+  "development_families": 3,
+  "planned_initial_assignments": 6,
+  "planned_final_assignments": 144,
+  "offline_tests_passed": 15,
+  "review_rounds": 3,
+  "independent_ai_review": "PASS, not independent human validation",
+  "findings_fixed": [
+    "Made replay acceptance explicit in case evidence",
+    "Preserved top-level FULL signals in structurally invalid complete JSON",
+    "Removed pre-treatment claim for later human initial judgments",
+    "Blocked resumption when an orphaned receipt indicates a lost committed batch"
+  ],
+  "human_and_main_prerequisites": [
+    "Independent case authors and qualified validators",
+    "Main-case bank and semantic scoring keys",
+    "Precision plan and benefit/harm/time margins",
+    "Responsible human-study investigator and applicable institutional determination, consent and recruitment arrangements"
+  ],
+  "gpu_jobs_submitted": false
+}

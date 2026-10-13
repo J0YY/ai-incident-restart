@@ -1,0 +1,19 @@
+{
+  "study_id": "restart_review_sequential_v1",
+  "status": "development_pilot_only",
+  "model": "google/gemma-4-31B-it",
+  "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+  "thinking": true,
+  "max_new_tokens": 4096,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "top_k": 0,
+  "batch_size": 4,
+  "repetitions": 1,
+  "schedule_seed": 2026101301,
+  "branches": ["resolved", "failed", "new_concern", "missing"],
+  "forms": ["ordinary", "focused"],
+  "histories": ["fresh", "own", "other"],
+  "orders": ["forward", "reverse"],
+  "main_inference_enabled": false
+}

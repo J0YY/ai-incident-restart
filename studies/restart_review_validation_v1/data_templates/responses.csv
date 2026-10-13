@@ -1,0 +1,1 @@
+study_phase,participant_id,eligibility_stratum,arm,schedule_slot,case_id,case_version,family_id,case_order,assigned,opened,submitted,timeout,started_at,ended_at,elapsed_seconds,decision,interim_scope,reason_text,request_text,request_owner,confidence_0_100,raw_form_text,raw_record_ref,deviation_note

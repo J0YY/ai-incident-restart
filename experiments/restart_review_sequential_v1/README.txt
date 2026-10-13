@@ -1,0 +1,1 @@
+Prepared development pilot, UNRUN. Three AI-authored families, 6 initial and 144 final assignments. Main inference disabled. Source and plans are in studies/restart_review_sequential_v1. The archive preserves the local frozen development release. No human validation or new model results.

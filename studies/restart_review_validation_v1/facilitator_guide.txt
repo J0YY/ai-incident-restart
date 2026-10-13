@@ -1,0 +1,15 @@
+FACILITATOR GUIDE — preparation only; no collection authorized by these files
+
+Before running: the author supplies a named investigator, approved consent/research arrangements as applicable, compensation and withdrawal policy, secure storage/retention plan, qualified human-validated case key, and frozen main plan. Do not contact people or represent this draft as institutional approval.
+
+For a manually administered comprehension pilot:
+1. Recruit only after author authorization and required arrangements. Obtain consent and verify eligibility before assigning an arm. Use separate pilot IDs, never names in response files.
+2. Supply common instructions and ONLY the assigned form. Give the same instruction time and one neutral walkthrough unrelated to the six scored pilot cases. Do not reveal the other form or hypothesis about preferred errors.
+3. Give pilot/common_packet_policy.txt with each case packet. The answer_key.json is staff-only. Do not send a folder containing the key to a participant. The six packet texts contain no answer labels. All recommendations are clearly scripted simulations, equally visible in both arms.
+4. Start the case timer when both packet and form are visible. Six minutes is the provisional limit; save partial answers and elapsed seconds. No evidence is supplied in response to a request during the decision window. Standard answer: "Record the information you would request and what it would resolve; decide the interim scope from the available packet." For substantive ambiguity, log the exact question and do not coach.
+5. Collect a final answer before the next packet. No feedback or within-case retries. Use each pilot case at most once per person; vary their order. The main schedule script must not be used to label pilot cases as main evidence.
+6. After decisions, ask about unclear terms, realistic baseline tasks, missing alternatives, effort, and time. Do not ask whether the treatment proved better. Keep debrief notes separate from decisions.
+7. Preserve original completed forms and timestamps; enter data into headers-only templates. Have another authorized staff member check transcription. Keep eligibility/contact information separately from decision data.
+8. During scoring, mask allocation metadata and headings without changing substantive words. Preserve every scorer's codes before adjudication. Confidential qualitative excerpts require the consent plan.
+
+Main-study administration additionally needs the author-created 24-case bank and concealed participant allocation sequence. Assign the next scheduled slot in the assigned arm and give that slot's ordered cases. Neither facilitator nor participant may choose easier packets or swap cases after outcomes. Record all deviations and technical interruptions. No authoritative deadlines, appeals, or live permissions are exercised.

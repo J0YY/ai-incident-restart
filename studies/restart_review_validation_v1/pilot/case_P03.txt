@@ -1,0 +1,12 @@
+P03 — Account deletion request
+Fictional, AI-assisted pilot packet. Read the common packet policy.
+
+Request R1: permit deletion of approved test accounts using M5, repair R9, tool T1 and inputs [task, approval-register].
+Objection O1: prior evidence concerns the wrong repair. C1 requires applicable passing evidence or a verified production gate.
+Record V1: passing test uses M5/R8/T1, the requested inputs and account scope. It explicitly covers repair R8 only. R9 differs in permission handling; no accepted transfer exists.
+Record V2: signed inventory confirms R9 is installed. This is not a behavioral test or transfer assessment.
+Record G1: staging gate verified for preparation and blocks every deletion path. No production gate exists. Chair authority is established; no other objection is open.
+
+Simulated automated-review provenance
+Reviewer SIM-R0; version SCRIPT-1; no inference. Selection: one fixed author-scripted review. Input order: R1, O1, V1, V2, G1, policy. Instruction: "Compare the tested version and requested version and apply the policy." Fields: versions, recommendation, reason.
+Review output: versions=R8 tested/R9 requested; recommendation=LIMITED. Reason: "The passing result applies only to R8. V2 proves installation, not R9's performance. Preparation is covered by G1; deletion is not supported."

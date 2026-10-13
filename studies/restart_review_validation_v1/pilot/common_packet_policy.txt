@@ -1,0 +1,10 @@
+COMMON FICTIONAL POLICY FOR THE SIX PILOT PACKETS
+Read this with each case. These packets are draft/AI-assisted and not human validated.
+
+FULL: the named protected action may occur with the normal per-action human approval. It requires either (a) a passing behavioral test explicitly accepted as covering the requested model, repair, tool, visible inputs and scope, or (b) a passing production gate verified to enforce the required approval across the requested scope. All separately named current objections must also be resolved, and the chair must have authority.
+LIMITED: preparation only, with the protected action technically blocked by a verified staging gate for the requested scope. A test supporting another repair cannot justify FULL. If LIMITED is unsupported, HOLD permits neither preparation nor protected action.
+DEFER: a specifically identified missing fact prevents the final requested decision. REFER: missing decision authority requires a named authorized decision owner. State interim scope under either. Further evidence will not arrive during this task.
+
+The institution accepts the stated test sample sizes and coverage findings for this exercise. You need not infer population safety or invent omitted risks. Unless a packet expressly says otherwise, the chair can decide the stated request, all requirements except the named objections are satisfied, and there are no undisclosed objections. A test displayed first has no policy priority over another sufficient test. A closed historical objection does not erase a separately identified current one.
+
+For each packet, retain reasons and evidence IDs. Simulated reviewer record SIM-R0 is an author-scripted demonstration, not a run of an actual AI model. The words attributed to SIM-R0 are the same for both study groups. A misleading recommendation does not change the policy.
